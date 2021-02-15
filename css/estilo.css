@@ -1,0 +1,259 @@
+        @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,500|IBM+Plex+Sans:400,600&display=swap');
+        * {
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+        }
+        
+        header {
+            width: 1440px;
+            height: 80px;
+        }
+        
+        .logo {
+            position: absolute;
+            margin-top: 22px;
+            margin-left: 100px;
+            margin-right: 722px;
+            margin-bottom: 22px;
+        }
+        
+        nav {
+            position: relative;
+            top: 26px;
+            margin-right: 100px;
+        }
+        
+        #botones {
+            float: right;
+            margin-left: 48px;
+            font-family: 'IBM Plex Mono';
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: normal;
+            color: #060A24;
+        }
+        
+        .titulo {
+            font-family: 'IBM Plex Sans';
+            font-size: 64px;
+            letter-spacing: 0px;
+        }
+        
+        .mundo {
+            text-decoration: line-through;
+            font-style: normal;
+        }
+        
+        .punto {
+            color: mediumblue;
+        }
+        
+        .introduccion {
+            font-family: 'IBM Plex Mono';
+            font-size: 16px;
+            letter-spacing: 0px;
+            line-height: 24px;
+        }
+        
+        .holamundo {
+            position: absolute;
+            top: 120px;
+            margin-left: 200px;
+            margin-bottom: 117px;
+        }
+        
+        .boton-top-conocemas {
+            position: absolute;
+            top: 388px;
+            margin-left: 200px;
+        }
+        
+        .episodio-enlaces {
+            width: 1440px;
+            height: 1042.6px;
+            margin-top: 449px;
+            background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        }
+        
+        .espisodios {
+            position: absolute;
+            margin-top: 186px;
+            margin-right: 1031px;
+            margin-left: 200px;
+            font-family: 'IBM Plex Sans';
+            font-size: 48px;
+            line-height: 62px;
+        }
+        
+        .reproductor-cont {
+            position: absolute;
+            margin-top: 274px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-bottom: 232.6px;
+        }
+        
+        .syntax {
+            position: absolute;
+            margin-left: 72px;
+            margin-bottom: 72px;
+        }
+        
+        .tope {
+            position: absolute;
+            margin-top: 72px;
+        }
+        
+        .margen {
+            position: absolute;
+            margin-top: 72px;
+            margin-left: 656px;
+        }
+        
+        .phone {
+            position: absolute;
+            margin-top: 874px;
+            margin-left: 200px;
+        }
+        
+        .dedondevenimos {
+            position: absolute;
+            float: right;
+            margin-top: 20.4px;
+            margin-left: 720px;
+        }
+        
+        #venimos {
+            font-family: 'IBM Plex Sans';
+            font-size: 48px;
+            letter-spacing: 0px;
+            line-height: 62px;
+        }
+        
+        .textovenimos {
+            font-family: 'IBM Plex Mono';
+            font-size: 16px;
+            letter-spacing: 0px;
+            line-height: 24px;
+        }
+        
+        .estelares {
+            position: absolute;
+            margin-top: 555.4px;
+            margin-left: 200px;
+            font-family: 'IBM Plex Sans';
+            font-size: 48px;
+            letter-spacing: 0px;
+            line-height: 62px;
+        }
+        
+        .invitados {
+            position: absolute;
+            margin-top: 653.4px;
+            width: 1440px;
+        }
+        
+        .invitados-1 {
+            margin: 0px;
+            padding: 0px;
+            float: left;
+            border: 0px
+        }
+        /*establecer medidas de contenedor ALGUNOS DE NUESTROS TEMAS*/
+        
+        #temas-titulo {
+            font-family: 'IBM Plex Sans';
+            font-size: 48px;
+            letter-spacing: 0px;
+            line-height: 62px;
+            position: absolute;
+            margin-top: 1445.4px;
+            margin-left: 200px;
+        }
+        
+        .temas {
+            position: absolute;
+            margin-top: 1563.4px;
+            margin-left: 200px;
+        }
+        
+        .temas-texto {
+            font-family: 'IBM Plex Sans';
+            font-size: 24px;
+            font-weight: bold;
+            letter-spacing: 0px;
+            line-height: 32px;
+            margin-top: 29px;
+        }
+        
+        .figure-temas {
+            display: inline-block;
+            width: 260px;
+            height: 130px;
+            text-align: center;
+        }
+        
+        .novedades-contenedor {
+            width: 1440px;
+            height: 518px;
+        }
+        
+        .novedades {
+            font-family: 'IBM Plex Sans';
+            font-size: 48px;
+            color: blue;
+            letter-spacing: 0px;
+            line-height: 62px;
+            margin-top: 2020px;
+            margin-left: 374px;
+        }
+        
+        .botontop {
+            margin-top: 36px;
+            margin-left: 547px;
+        }
+        
+        .buttonlink {
+            display: inline-block;
+            vertical-align: middle;
+            border-style: none;
+            border-width: 0px 0px 0px 0px;
+            width: 345px;
+            height: 40px;
+            background-color: #00F3BB;
+            color: #060A24;
+            text-align: center;
+            text-decoration: none;
+            font-family: 'IBM Plex Mono';
+            font-size: 18px;
+            font-weight: normal;
+            padding-top: 16px;
+        }
+        
+        .buttonlink:hover {
+            color: none;
+        }
+        
+        .redes-sociales {
+            position: absolute;
+            width: 1440px;
+            height: 96px;
+        }
+        
+        .redes-sociales-imagenes {
+            margin-top: 36px;
+            margin-right: 36px;
+            float: right;
+        }
+        
+        .redes-sociales-copyright {
+            margin-top: 36px;
+            margin-left: 100px;
+            position: absolute;
+        }
+        
+        .copyright {
+            font-family: 'IBM Plex Mono';
+            font-size: 16px;
+        }
